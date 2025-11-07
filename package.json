@@ -1,0 +1,149 @@
+{
+  "name": "edit-with-script",
+  "displayName": "Edit with Script",
+  "description": "20 shell scripts on selection – hotkeys + right-click",
+  "version": "1.0.0",
+  "publisher": "jcrabtree",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlcjunk/vscode-edit-with-script.git"
+  },
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["Other"],
+  "activationEvents": ["onCommand:editWithScript.run01"],
+  "main": "./extension.js",
+  "scripts": {
+    "package": "vsce package"
+  },
+  "contributes": {
+    "commands": [
+      { "command": "editWithScript.run01", "title": "Script 01", "category": "Edit with Script" },
+      { "command": "editWithScript.run02", "title": "Script 02", "category": "Edit with Script" },
+      { "command": "editWithScript.run03", "title": "Script 03", "category": "Edit with Script" },
+      { "command": "editWithScript.run04", "title": "Script 04", "category": "Edit with Script" },
+      { "command": "editWithScript.run05", "title": "Script 05", "category": "Edit with Script" },
+      { "command": "editWithScript.run06", "title": "Script 06", "category": "Edit with Script" },
+      { "command": "editWithScript.run07", "title": "Script 07", "category": "Edit with Script" },
+      { "command": "editWithScript.run08", "title": "Script 08", "category": "Edit with Script" },
+      { "command": "editWithScript.run09", "title": "Script 09", "category": "Edit with Script" },
+      { "command": "editWithScript.run10", "title": "Script 10", "category": "Edit with Script" },
+      { "command": "editWithScript.run11", "title": "Script 11", "category": "Edit with Script" },
+      { "command": "editWithScript.run12", "title": "Script 12", "category": "Edit with Script" },
+      { "command": "editWithScript.run13", "title": "Script 13", "category": "Edit with Script" },
+      { "command": "editWithScript.run14", "title": "Script 14", "category": "Edit with Script" },
+      { "command": "editWithScript.run15", "title": "Script 15", "category": "Edit with Script" },
+      { "command": "editWithScript.run16", "title": "Script 16", "category": "Edit with Script" },
+      { "command": "editWithScript.run17", "title": "Script 17", "category": "Edit with Script" },
+      { "command": "editWithScript.run18", "title": "Script 18", "category": "Edit with Script" },
+      { "command": "editWithScript.run19", "title": "Script 19", "category": "Edit with Script" },
+      { "command": "editWithScript.run20", "title": "Script 20", "category": "Edit with Script" }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "editWithScript.run01",
+          "when": "editorTextFocus",
+          "group": "editWithScript@1"
+        },
+        {
+          "command": "editWithScript.run02",
+          "when": "editorTextFocus",
+          "group": "editWithScript@2"
+        },
+        {
+          "command": "editWithScript.run03",
+          "when": "editorTextFocus",
+          "group": "editWithScript@3"
+        },
+        {
+          "command": "editWithScript.run04",
+          "when": "editorTextFocus",
+          "group": "editWithScript@4"
+        },
+        {
+          "command": "editWithScript.run05",
+          "when": "editorTextFocus",
+          "group": "editWithScript@5"
+        },
+        {
+          "command": "editWithScript.run06",
+          "when": "editorTextFocus",
+          "group": "editWithScript@6"
+        },
+        {
+          "command": "editWithScript.run07",
+          "when": "editorTextFocus",
+          "group": "editWithScript@7"
+        },
+        {
+          "command": "editWithScript.run08",
+          "when": "editorTextFocus",
+          "group": "editWithScript@8"
+        },
+        {
+          "command": "editWithScript.run09",
+          "when": "editorTextFocus",
+          "group": "editWithScript@9"
+        },
+        {
+          "command": "editWithScript.run10",
+          "when": "editorTextFocus",
+          "group": "editWithScript@10"
+        }
+      ],
+      "commandPalette": [
+        { "command": "editWithScript.run01" },
+        { "command": "editWithScript.run02" },
+        { "command": "editWithScript.run03" },
+        { "command": "editWithScript.run04" },
+        { "command": "editWithScript.run05" },
+        { "command": "editWithScript.run06" },
+        { "command": "editWithScript.run07" },
+        { "command": "editWithScript.run08" },
+        { "command": "editWithScript.run09" },
+        { "command": "editWithScript.run10" },
+        { "command": "editWithScript.run11" },
+        { "command": "editWithScript.run12" },
+        { "command": "editWithScript.run13" },
+        { "command": "editWithScript.run14" },
+        { "command": "editWithScript.run15" },
+        { "command": "editWithScript.run16" },
+        { "command": "editWithScript.run17" },
+        { "command": "editWithScript.run18" },
+        { "command": "editWithScript.run19" },
+        { "command": "editWithScript.run20" }
+      ]
+    },
+    "submenus": [
+      {
+        "id": "editWithScript.menu",
+        "label": "Edit with Script"
+      }
+    ],
+    "configuration": {
+      "title": "Edit with Script",
+      "properties": {
+        "editWithScript.cmd01": { "type": "string", "default": "echo '#01'", "description": "Script 01" },
+        "editWithScript.cmd02": { "type": "string", "default": "echo '#02'", "description": "Script 02" },
+        "editWithScript.cmd03": { "type": "string", "default": "echo '#03'", "description": "Script 03" },
+        "editWithScript.cmd04": { "type": "string", "default": "echo '#04'", "description": "Script 04" },
+        "editWithScript.cmd05": { "type": "string", "default": "echo '#05'", "description": "Script 05" },
+        "editWithScript.cmd06": { "type": "string", "default": "echo '#06'", "description": "Script 06" },
+        "editWithScript.cmd07": { "type": "string", "default": "echo '#07'", "description": "Script 07" },
+        "editWithScript.cmd08": { "type": "string", "default": "echo '#08'", "description": "Script 08" },
+        "editWithScript.cmd09": { "type": "string", "default": "echo '#09'", "description": "Script 09" },
+        "editWithScript.cmd10": { "type": "string", "default": "echo '#10'", "description": "Script 10" },
+        "editWithScript.cmd11": { "type": "string", "default": "echo '#11'", "description": "Script 11" },
+        "editWithScript.cmd12": { "type": "string", "default": "echo '#12'", "description": "Script 12" },
+        "editWithScript.cmd13": { "type": "string", "default": "echo '#13'", "description": "Script 13" },
+        "editWithScript.cmd14": { "type": "string", "default": "echo '#14'", "description": "Script 14" },
+        "editWithScript.cmd15": { "type": "string", "default": "echo '#15'", "description": "Script 15" },
+        "editWithScript.cmd16": { "type": "string", "default": "echo '#16'", "description": "Script 16" },
+        "editWithScript.cmd17": { "type": "string", "default": "echo '#17'", "description": "Script 17" },
+        "editWithScript.cmd18": { "type": "string", "default": "echo '#18'", "description": "Script 18" },
+        "editWithScript.cmd19": { "type": "string", "default": "echo '#19'", "description": "Script 19" },
+        "editWithScript.cmd20": { "type": "string", "default": "echo '#20'", "description": "Script 20" }
+      }
+    }
+  }
+}
