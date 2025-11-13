@@ -34,7 +34,7 @@ function runScript(cmd) {
 }
 
 function activate(context) {
-  for (let i = 1; i <= 20; i++) {
+  for (let i = 1; i <= 50; i++) {
     const num = i.toString().padStart(2, '0');
     const cmdId = `editWithScript.run${num}`;
     context.subscriptions.push(vscode.commands.registerCommand(cmdId, () => {

@@ -1,0 +1,33 @@
+{
+
+    "editWithScript.cmd01": "tr '[:upper:]' '[:lower:]'",
+    "editWithScript.cmd02": "tr '[:lower:]' '[:upper:]'",
+    "editWithScript.cmd03": "sort",
+    "editWithScript.cmd04": "sort -r",
+    "editWithScript.cmd05": "sort -u",
+    "editWithScript.cmd06": "echo 'Nothing Here'",
+    "editWithScript.cmd07": "~/.vscode/extensions/jcrabtree.edit-with-script-1.2.0/examples/whitespace_clean.sh",
+    "editWithScript.cmd08": "~/.vscode/extensions/jcrabtree.edit-with-script-1.2.0/examples/insert_time_stamp.sh",
+    "editWithScript.cmd09": "~/.vscode/extensions/jcrabtree.edit-with-script-1.2.0/examples/new_file.sh code",
+    "editWithScript.cmd10": "echo 'Nothing Here'",
+
+    "editWithScript.cmd11": "~/.vscode/extensions/jcrabtree.edit-with-script-1.2.0/examples/tf_cr_template.py",
+    "editWithScript.cmd12": "~/.vscode/extensions/jcrabtree.edit-with-script-1.2.0/examples/empty_lines.py",
+
+    "editWithScript.cmd13": "~/.vscode/extensions/jcrabtree.edit-with-script-1.2.0/examples/small_block_visual_break.py",
+    "editWithScript.cmd14": "~/.vscode/extensions/jcrabtree.edit-with-script-1.2.0/examples/large_block_visual_break.py",
+
+    "editWithScript.cmd15": "~/.vscode/extensions/jcrabtree.edit-with-script-1.2.0/examples/small_plus_visual_break.py",
+    "editWithScript.cmd16": "~/.vscode/extensions/jcrabtree.edit-with-script-1.2.0/examples/large_plus_visual_break.py",
+
+    "editWithScript.cmd17": "~/.vscode/extensions/jcrabtree.edit-with-script-1.2.0/examples/small_minus_visual_break.py",
+    "editWithScript.cmd18": "~/.vscode/extensions/jcrabtree.edit-with-script-1.2.0/examples/large_minus_visual_break.py",
+
+    "editWithScript.cmd19": "~/.vscode/extensions/jcrabtree.edit-with-script-1.2.0/examples/small_asterisk_visual_break.py",
+    "editWithScript.cmd20": "~/.vscode/extensions/jcrabtree.edit-with-script-1.2.0/examples/large_asterisk_visual_break.py",
+
+    "editWithScript.cmd21": "~/.vscode/extensions/jcrabtree.edit-with-script-1.2.0/examples/small_slash_visual_break.py",
+    "editWithScript.cmd22": "~/.vscode/extensions/jcrabtree.edit-with-script-1.2.0/examples/large_slash_visual_break.py",
+
+
+}
