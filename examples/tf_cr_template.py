@@ -150,8 +150,17 @@ action=plan   # plan or apply
 type=full     # full or targeted
 
 
-####  authenticate before running tfv - optional convenience
+##    authenticate before running tfv - optional convenience
 tfv vault-login
+
+##    authenticate to github before working with repo
+#   open browser and loginto corpsso
+#   open github enterprise
+   
+#   open cli
+gh auth login
+#   enter code from cli into browser
+#   autherize github
 
 
 ####    change to repo directory
